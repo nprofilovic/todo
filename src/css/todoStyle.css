@@ -1,0 +1,47 @@
+body {
+   margin: auto;
+   width: 50%;
+   border: 2px solid blue;
+   padding: 10px;
+}
+@font-face {
+    font-family: 'billabongregular';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: billabongregular;
+}
+th {
+  text-align: center;
+  font-size: 16px;
+}
+td {
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 20px;
+}
+.App {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  margin: 10px;
+}
+
+.error {
+  width: 100%;
+  margin-top: 10px;
+
+}
