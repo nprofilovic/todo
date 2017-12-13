@@ -39,17 +39,17 @@ class TodoListItems extends React.Component{
 	renderActionSection(){
 		if (this.state.isEditing){
 			return (
-				<div>
+				<td>
 					<button onClick={this.onSaveClick.bind(this)} className="btn btn-primary btn-block button">Save</button>
 					<button onClick={this.onCancelClick.bind(this)} className="btn btn-primary btn-block button">Cancel</button>
-				</div>
+				</td>
 			);
 		}
 			return (
-				<div>
+				<td>
 					<button onClick={this.onEditClick.bind(this)} className="btn btn-primary button">Edit</button>
-					<button onClick={this.props.deleteTask.bind(this, this.props.task)} className="btn btn-primary button">Delete</button>
-				</div>
+					<button onClick={this.props.deleteTask.bind(this, this.props.todo)} className="btn btn-primary button">Delete</button>
+				</td>
 			);
 	}
 
